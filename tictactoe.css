@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 300px; /* Ширина поля */
+    height: 305px; /* Высота поля */
+    border: 2px solid black; /* Границы поля */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+.player-x {
+    color: red;
+}
+
+.player-o {
+    color: blue;
+}
+
+  
